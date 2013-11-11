@@ -27,13 +27,13 @@
 development:
   adapter: postgresql
   host: localhost
-  username: user_prod
+  username: user_dev
   database: app_dev
 
 test:
   adapter: postgresql
   host: localhost
-  username: user_prod
+  username: user_test
   database: app_test
 
 production:
